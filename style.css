@@ -1,15 +1,14 @@
 body {
-    display: flex;
-    flex-direction: column;
+    font-family: sans-serif;
     margin: 0;
-    
 }
+
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 10px 200px 0 200px;
+    padding: 20px 150px 60px 150px;
 }
 
 .title {
@@ -18,30 +17,31 @@ body {
     font-weight: bolder;
 }
 
-.link {
-    
-}
-
-a {
+.link > a {
     font-size: 18px;
     color: #e5e7eb;
     margin: 10px;
+    text-decoration: none;
 }
 
-p {
+/*p {
     font-size: 18px;
     color: #e5e7eb;
-}
+}*/
 
 .body {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1f2937;
-    padding: 100px 200px 200px 200px;
-   
+    padding: 50px 150px 100px 150px;
+
 }
 
-.sub-body {
+.sub-body > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 10px;
 
 }
 
@@ -54,17 +54,86 @@ p {
 
 button {
     background-color: #3882f6;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 30px 10px 30px;
     font-size: 18px;
     color: #e5e7eb;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .img {
     display: flex;
     background-color: grey;
-    width: 500px;
+    width: 1000px;
     justify-content: center;
     align-items: center;
     color: #f9faf8;
+    margin-left: 50px;
  
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 200px 0 200px;
+
+}
+
+.info > p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.info-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 2000px;
+    margin: 25px;
+    font-size: 18px;
+    color: #1f2937;
+
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border: 4px solid #3882f6;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin: 0;
+}
+
+.quote-1 {
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.author {
+
+    text-align: right;
+}
+
+.sign-div {
+    display: flex;
+
+}
+

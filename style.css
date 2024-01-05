@@ -3,7 +3,6 @@ body {
     margin: 0;
 }
 
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -24,17 +23,11 @@ body {
     text-decoration: none;
 }
 
-/*p {
-    font-size: 18px;
-    color: #e5e7eb;
-}*/
-
 .body {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
     padding: 50px 150px 100px 150px;
-
 }
 
 .sub-body > p {
@@ -42,7 +35,6 @@ body {
     color: #e5e7eb;
     margin-top: 0;
     margin-bottom: 10px;
-
 }
 
 
@@ -54,11 +46,12 @@ body {
 
 button {
     background-color: #3882f6;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 30px 5px 30px;
     font-size: 18px;
     color: #e5e7eb;
     border-radius: 10px;
     font-weight: bold;
+    border: 0px;
 }
 
 .img {
@@ -69,14 +62,12 @@ button {
     align-items: center;
     color: #f9faf8;
     margin-left: 50px;
- 
 }
 
 .info {
     display: flex;
     flex-direction: column;
     margin: 25px 200px 0 200px;
-
 }
 
 .info > p {
@@ -101,7 +92,6 @@ button {
     margin: 25px;
     font-size: 18px;
     color: #1f2937;
-
 }
 
 .img1 {
@@ -113,14 +103,12 @@ button {
     border: 4px solid #3882f6;
 }
 
-
 .quote {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 50px 250px 50px 250px;
-    
+    padding: 150px 250px 50px 250px;
 }
 
 .quote-1 {
@@ -131,15 +119,56 @@ button {
 }
 
 .author {
-
     text-align: right;
     font-size: 26px;
     font-weight: bold;
-
 }
+
+.sign-up {
+    margin: 100px 100px 100px 125px; 
+}
+
+.container {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 20px  100px 20px 100px;
+}
+
+.container > p {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.call {
+    margin-bottom: 0;
+}
+
 
 .sign-div {
     display: flex;
+    font-size: 18px;
+    color: #f9faf8;
+}
 
+.sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.sign-button {
+    margin-left: 100px;
+    margin-bottom: 15px;
+    border: solid white 2px;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    color:#f9faf8;
 }
 
